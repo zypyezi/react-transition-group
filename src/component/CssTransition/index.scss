@@ -1,0 +1,40 @@
+
+.slide-enter{
+    opacity:0;
+}
+
+.slide-enter-active{
+    opacity:1;
+    transition: opacity 300ms;
+}
+
+.slide-enter-done{
+    opacity:1;
+}
+
+.slide-exit{
+    opacity:1;
+}
+
+.slide-exit-active{
+    opacity:0;
+    transition: opacity 300ms;
+}
+
+
+.slide-exit-done{
+    opacity:0;
+}
+
+
+.slide-appear{
+
+}
+
+.slide-appear-active{
+
+}
+
+.slide-appear-done{
+    opacity:0;
+}
